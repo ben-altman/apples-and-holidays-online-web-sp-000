@@ -51,6 +51,8 @@ def all_winter_holiday_supplies(holiday_hash)
     winter_supplies << supply
   end
   winter_supplies.flatten
+
+  holiday_hash[:winter].values.flatten
 #  more succinct:
 #  holiday_hash[:winter].values.flatten
 end
